@@ -1,0 +1,10 @@
+def madlib(op1, op2, op3, op4):
+    print(f"Jerry walked outside, relishing on the beautiful day. Suddenly, he spotted a {op1}. \nJerry greeted the {op1}, before going to his car. Suddenly, on the road, he found a {op2}. Jerry grabbed the {op2}, driving to work. When he arrived, he sat down on his chair, only to find a {op3}. Jerry looked at the {op3}, before eyeing the tag. 'From Grett.' He eyed Grett, her eyeing back, before smiling. Jerry then walked up to her, and said; '{op4}.' Grett,touched with what Jerry said; that being, {op4}.+,she walked up to him and hugged him. Jerry hugged back. END.")
+print("It's time for Mad Libs! I shall give you a story, with missing words, and you must complete them! Are you ready?")
+op1 = input("Jerry walked outside, relishing on the beautiful day. Suddenly, he spotted... (An Animal!): ")
+op2 = input(f"Jerry greeted the {op1}, before going to his car. Suddenly, on the road, he found... (A type of Food!): ")
+op3 = input(f"Jerry grabbed the {op2}, driving to work. When he arrived, he sat down on his chair, only to find... (A Gift!): ")
+op4 = input(f"Jerry looked at the {op3}, before eyeing the tag. 'From Grett.' He eyed Grett, her eyeing back, before smiling. Jerry then walked up to her, and said... (A sentence of love!): ")
+print(f"Grett,touched with what Jerry said; that being, {op4}. She walked up to him and hugged him. Jerry hugged back. END.")
+print("Now! Let's go over the story one more time!")
+madlib(op1, op2, op3, op4)
